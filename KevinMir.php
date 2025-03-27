@@ -18,3 +18,5 @@ $mayorEdad = true; // Verdad o falso (Boolean)
 //Apellido = ´Fernández´; // Cambiaría las (´´) por comillas simples ('') o dobles ("").
 //pais_de_origen= "Uruguay" // Falta colocar "$" para especificar que "pais_de_origen" es en realidad una variable, además de colocar ";" al final.
 //$salario = $2000; //No se puede colocar "$2000" como valor de la variable, solo colocar "2000".
+define('GRAVEDAD', 9.8); //Las constantes son identificadores (nombres) que representan un valor único y no cambian durante la ejecución del script.
+const GRAVEDAD = 9.8;                         //Las constantes son identificadores (nombres) que representan un valor único y no cambian durante la ejecución del script.
