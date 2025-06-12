@@ -1,4 +1,5 @@
 <?php
+//Actividad1
 $tripulacion =['Alex Rider','Mia Kovalik','Raj Patel','Elena Vega','Jules Bergman']; // Crear el Array
 
 echo $tripulacion[2]; //Mostrar el tercer tripulante (índice 2)
@@ -15,6 +16,7 @@ $tripulacion[]='Zara Khan';//Añadir a Zara Khan como un nuevo tripulante
 
 var_dump($tripulacion);//Comprobación.
 //Hecho por Kevin Mir, Benjamín Gigena y Bruno Hernández.
+//Actividad4
 
 
 
