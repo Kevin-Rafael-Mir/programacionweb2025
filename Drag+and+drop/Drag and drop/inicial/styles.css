@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.elemento-arrastrable {
+    width: 70px;
+    padding: 20px;
+    background: #3498db;
+    color: #fff;
+    text-align: center;
+    border-radius: 8px;
+    cursor: grab;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: background 0.2s;
+}
+
+.elemento-arrastrable:active {
+    background: #217dbb;
+}
+
+.zona-drop {
+    width: 200px;
+    height: 120px;
+    border: 2px dashed #aaa;
+    border-radius: 10px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #888;
+    font-size: 1.2em;
+    transition: border-color 0.2s, background 0.2s;
+}
+
+.zona-drop.over {
+    border-color: #3498db;
+    background: #eaf6fb;
+    color: #217dbb;
+}
